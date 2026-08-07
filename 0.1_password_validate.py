@@ -4,7 +4,7 @@ if password == "":
     print("Tines que escribir algo")
 
 elif len(password) < 8:
-    print("Tu contraseña es muy corta")
+    print("Tu contraseña necesita 8 caracteres como minimo")
 
 else:
     tiene_numero = False
@@ -29,10 +29,10 @@ else:
         print("Tu contraseña necesita al menos un numero")
 
     elif not tiene_letra:
-        print("Tu contraseña necesita una letra")
+        print("Tu contraseña necesita al menos una letra")
 
     elif not tiene_minuscula:
-        print("Tu contraseña necesita una letra en minuscula")
+        print("Tu contraseña necesita al menos una letra en minuscula")
 
     else:
-        print("Tu contraseña necesita una letra en mayuscula")
+        print("Tu contraseña necesita al menos una letra en mayuscula")
